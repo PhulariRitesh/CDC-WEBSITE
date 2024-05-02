@@ -1,0 +1,257 @@
+.recruiter-login-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.recruiter-login-page .overlap-wrapper {
+  background-color: #ffffff;
+  height: 832px;
+  overflow: hidden;
+  width: 1280px;
+}
+
+.recruiter-login-page .overlap {
+  height: 937px;
+  left: -45px;
+  position: relative;
+  width: 1374px;
+}
+
+.recruiter-login-page .blue-BG {
+  height: 937px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 949px;
+}
+
+.recruiter-login-page .overlap-group {
+  height: 832px;
+  left: 45px;
+  position: relative;
+  width: 904px;
+}
+
+.recruiter-login-page .blue-back {
+  background: linear-gradient(180deg, rgb(30.51, 83.78, 215.33) 0%, rgb(0, 29.6, 102.71) 100%);
+  height: 832px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 730px;
+}
+
+.recruiter-login-page .top-vec {
+  background-blend-mode: overlay;
+  height: 152px;
+  left: 350px;
+  mix-blend-mode: overlay;
+  position: absolute;
+  top: 287px;
+  width: 226px;
+}
+
+.recruiter-login-page .bottom-vec {
+  background-blend-mode: overlay;
+  height: 123px;
+  left: 255px;
+  mix-blend-mode: overlay;
+  position: absolute;
+  top: 709px;
+  width: 286px;
+}
+
+.recruiter-login-page .middle-vec {
+  background-blend-mode: overlay;
+  height: 533px;
+  left: 0;
+  mix-blend-mode: overlay;
+  position: absolute;
+  top: 299px;
+  width: 904px;
+}
+
+.recruiter-login-page .white-BG {
+  background-color: #f0f4fe;
+  border-radius: 70px 0px 0px 70px;
+  height: 832px;
+  left: 549px;
+  position: absolute;
+  top: 0;
+  width: 825px;
+}
+
+.recruiter-login-page .sign-in-button {
+  background-color: #1e53d7;
+  border-radius: 20px;
+  height: 60px;
+  left: 818px;
+  position: absolute;
+  top: 520px;
+  width: 250px;
+}
+
+.recruiter-login-page .text-wrapper {
+  color: #ffffff;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  left: 906px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 534px;
+}
+
+.recruiter-login-page .group {
+  height: 50px;
+  left: 686px;
+  position: absolute;
+  top: 246px;
+  width: 500px;
+}
+
+.recruiter-login-page .div {
+  color: #000000;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 36px;
+  font-weight: 600;
+  left: 874px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 100px;
+}
+
+.recruiter-login-page .text-wrapper-2 {
+  color: #000000;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 832px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 148px;
+}
+
+.recruiter-login-page .user-line {
+  height: 1px;
+  left: 793px;
+  object-fit: cover;
+  position: absolute;
+  top: 398px;
+  width: 300px;
+}
+
+.recruiter-login-page .text-wrapper-3 {
+  color: #959595;
+  font-family: "Poppins-Light", Helvetica;
+  font-size: 16px;
+  font-weight: 300;
+  left: 801px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 360px;
+}
+
+.recruiter-login-page .pass-line {
+  height: 1px;
+  left: 793px;
+  object-fit: cover;
+  position: absolute;
+  top: 456px;
+  width: 300px;
+}
+
+.recruiter-login-page .text-wrapper-4 {
+  color: #959595;
+  font-family: "Poppins-Light", Helvetica;
+  font-size: 16px;
+  font-weight: 300;
+  left: 801px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 420px;
+}
+
+.recruiter-login-page .text-wrapper-5 {
+  color: #dd0000;
+  font-family: "Poppins-Light", Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  left: 885px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 611px;
+}
+
+.recruiter-login-page .new-user-apply-now {
+  color: transparent;
+  font-family: "Poppins-Light", Helvetica;
+  font-size: 15px;
+  font-weight: 300;
+  left: 865px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 642px;
+}
+
+.recruiter-login-page .span {
+  color: #000000;
+}
+
+.recruiter-login-page .text-wrapper-6 {
+  color: #1e53d7;
+}
+
+.recruiter-login-page .eye {
+  height: 26px;
+  left: 1056px;
+  object-fit: cover;
+  position: absolute;
+  top: 423px;
+  width: 26px;
+}
+
+.recruiter-login-page .IIT-goa-logo {
+  height: 218px;
+  left: 183px;
+  object-fit: cover;
+  position: absolute;
+  top: 207px;
+  width: 218px;
+}
+
+.recruiter-login-page .text-wrapper-7 {
+  color: #ffffff;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  left: 215px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 465px;
+}
+
+.recruiter-login-page .text-wrapper-8 {
+  color: #ffffff;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 30px;
+  font-weight: 500;
+  left: 75px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 532px;
+  width: 433px;
+}

@@ -1,0 +1,1 @@
+export const companyDetails = 'companyDetails'

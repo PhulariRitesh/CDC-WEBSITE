@@ -65,13 +65,44 @@ export default function POC(){
                         <CR 
                         onclose={handleclose}/>
                     </Modal>
-
-
-
-
+                    <Grid mt={2} ml={20}>
+                    <table style={{ width: width, textAlign: 'center', fontSize: '1.2rem', borderCollapse: 'collapse' }}>
+  <thead style={{ backgroundColor: '#f0f0f0' }}>
+    <tr>
+      <th style={{ padding: '10px',borderRight:"3px SOLID black",borderBottom:"3px solid black"}}>Round Name</th>
+      <th style={{ padding: '10px',borderRight:"3px SOLID black",borderBottom:"3px solid black" }}>Time</th>
+      <th style={{ padding: '10px',borderRight:"3px SOLID black",borderBottom:"3px solid black" }}>Status</th>
+      <th style={{ padding: '10px',borderRight:"3px SOLID black",borderBottom:"3px solid black" }}>Link</th>
+      <th style={{ padding: '10px',borderRight:"3px SOLID black",borderBottom:"3px solid black" }}>Result</th>
+    </tr>
+  </thead>
+  <tbody style={{ backgroundColor: 'lightblue' }}>
+    <tr>
+      <td style={{padding: '10px' ,borderRight:"3px SOLID black",borderBottom:"3px solid black"}}>
+        Written Test
+      </td>
+      <td style={{ color: 'blue', padding: '10px',borderRight:"3px SOLID black",borderBottom:"3px solid black" }}>11:00am to 2:00pm</td>
+      <td style={{ padding: '10px',borderRight:"3px SOLID black",borderBottom:"3px solid black"  }}>
+        <div style={{ borderRadius: '10px', backgroundColor: '#ffd700', padding: '5px', }}>Pending</div>
+      </td>
+      <td style={{ padding: '10px',borderRight:"3px SOLID black" ,borderBottom:"3px solid black" }}>www.link.com</td>
+      <td style={{ fontWeight: 'bold', padding: '10px',borderRight:"3px SOLID black",borderBottom:"3px solid black" }}>Upload</td>
+    </tr>
+    <tr>
+      <td style={{padding: '10px',borderRight:"3px SOLID black" ,borderBottom:"3px solid black"}}>
+        Interview Round 1
+      </td>
+      <td style={{ color: 'blue', padding: '10px',borderBottom:"3px solid black",borderRight:"3px SOLID black" }}>Student.csv</td>
+      <td style={{ padding: '10px',borderBottom:"3px solid black",borderRight:"3px SOLID black" }}>
+        <div style={{ borderRadius: '10px', backgroundColor: '#32cd32', padding: '5px' }}>Approved</div>
+      </td>
+      <td style={{ padding: '10px',borderRight:"3px SOLID black",borderBottom:"3px solid black"  }}>www.link.com</td>
+      <td style={{ fontWeight: 'bold', padding: '10px',borderRight:"3px SOLID black",borderBottom:"3px solid black"  }}>resume.pdf</td>
+    </tr>
+  </tbody>
+</table>
+</Grid>
                 </Grid>
-
-
             </Box>
         </>
     );
